@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopi Patwa - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div class="content">
+        <header>
+            <nav>
+                <div class="nav-mobile">
+                    <div class="mobile-bar">
+                        <button id="menu-toggle" aria-label="Toggle menu">
+                            <span class="hamburger"></span>
+                        </button>
+                        <div class="mobile-title">Gopi Patwa</div>
+                        <div class="theme-switch">
+                            <button id="theme-toggle" aria-label="Toggle theme">
+                                <i class="fas fa-moon dark-icon"></i>
+                                <i class="fas fa-sun light-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="theme-switch desktop-only">
+                        <button id="desktop-theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon dark-icon"></i>
+                            <i class="fas fa-sun light-icon"></i>
+                        </button>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="assets/avatar.png" alt="Gopi Patwa" class="profile-img">
+                <h1>Gopi Patwa</h1>
+                <h2>Software Engineer</h2>
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra, India
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/gopipatwa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:gopise73@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:9112180053"><i class="fas fa-phone"></i></a>
+                </div>
+                <!-- <a href="./assets/firoza_shaikh_cv_marketing.pdf" class="cta-button" target="_blank" download>Download Resume (PDF)</a> -->
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-content">
+                <p class="professional-summary">
+                    Software Engineer with 3 years of hands-on experience in backend, frontend, and DevOps. I am passionate about building scalable solutions and leveraging modern technologies to solve real-world problems. My journey includes impactful work in AI, cloud-native systems, and full-stack development, with a focus on delivering robust, maintainable code. I thrive in collaborative environments and enjoy making a difference through technology.
+                </p>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="section-content">
+                <div class="experience-item">
+                    <h3>Software Engineer</h3>
+                    <h4>Punctuations – Mumbai, India</h4>
+                    <p class="duration">May 2024 – Present</p>
+                    <ul>
+                        <li>Developed and deployed scalable microservices using <b>Python</b> (FastAPI), <b>Docker</b>, and <b>Kubernetes</b> on Ubuntu systems.</li>
+                        <li>Implemented real-time AI chat applications and integrated <b>Elasticsearch</b>, <b>Redis</b>, and <b>Celery</b> for high-performance data processing.</li>
+                        <li>Built and maintained frontend features with <b>Vue.js</b>.</li>
+                        <li>Utilized <b>Postman</b> for API testing and automation.</li>
+                        <li>Collaborated in a DevOps culture, focusing on CI/CD and cloud-native best practices.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Junior Software Engineer</h3>
+                    <h4>Punctuations – Mumbai, India</h4>
+                    <p class="duration">June 2022 – May 2024</p>
+                    <ul>
+                        <li>Contributed to backend and infrastructure projects using Python, Docker, and Kubernetes.</li>
+                        <li>Worked on AI-driven chatbot solutions and optimized data pipelines with Redis and Celery.</li>
+                        <li>Enhanced user interfaces with Vue.js and ensured cross-platform compatibility.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Full Stack Developer</h3>
+                    <h4>Fin Rise Softech PVT LTD – Goregaon, Maharashtra</h4>
+                    <p class="duration">October 2021 – May 2022</p>
+                    <ul>
+                        <li>Developed trading applications using <b>Django</b> and <b>React</b>.</li>
+                        <li>Implemented real-time features with <b>WebSockets</b>.</li>
+                        <li>Gained experience in full-stack development and agile methodologies.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Python Developer</h3>
+                    <h4>Rivan Solutions – India</h4>
+                    <p class="duration">September 2021</p>
+                    <p>Specialized in Web Scraping projects using Python.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Notable Projects</h2>
+            <div class="section-content">
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <h3>Cogen Design App</h3>
+                        <p>Canva-like design application for collaborative content creation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3>WebQNA Chatbot</h3>
+                        <p>AI-powered chatbot for real-time Q&A and support.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Celery</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                            <span class="tech-tag">Qdrant Vector</span>
+                            <span class="tech-tag">OpenAI</span>
+                            <span class="tech-tag">Postgres DB</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3>Stripe Integration</h3>
+                        <p>Secure payment system integration for web applications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Stripe API</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3>Online Examination System</h3>
+                        <p>Personal/college project for conducting secure online exams with automated evaluation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Backend</h3>
+                        <p>Python, FastAPI, Elasticsearch, Redis, Celery</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend</h3>
+                        <p>Vue.js, JavaScript, HTML/CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <h3>DevOps</h3>
+                        <p>Docker, Kubernetes, Ubuntu</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                        <p>Postgres, SQL, Elasticsearch, Redis</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools</h3>
+                        <p>Git, Bitbucket, Postman</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI/ML</h3>
+                        <p>AI Implementation, Chatbot Development</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <h3>Bachelor of Science - Information Technology</h3>
+                    <h4>Abhinav Shetkari Shikshan Mandal Abhinav College of Arts Science and Commerce</h4>
+                    <p class="duration">August 2018 - June 2021</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-content contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:gopise73@gmail.com">gopise73@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:9112180053">+91 91121 80053</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/gopipatwa" target="_blank">Connect with me</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
